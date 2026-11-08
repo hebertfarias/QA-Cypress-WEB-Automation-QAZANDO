@@ -1,18 +1,10 @@
 {
   "name": "bootcamp-automation-web-qazando",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
+  "description": "Testes end-to-end do fluxo de login com Cypress.",
+  "scripts": { "cy:open": "cypress open", "test": "cypress run", "test:headed": "cypress open" },
+  "keywords": ["qa", "cypress", "e2e", "web", "testing"],
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "cypress": "^14.1.0"
-  },
-  "devDependencies": {
-    "mochawesome": "^7.1.3"
-  }
+  "dependencies": { "cypress": "^14.1.0" },
+  "devDependencies": { "mochawesome": "^7.1.3" }
 }
